@@ -1,0 +1,111 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 80vh;
+}
+
+.introduction {
+  width: 45%;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 12vw;
+  transform: translateY(2vh);
+}
+
+.hero-section {
+  width: 60%;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container img {
+  max-width: 60%;
+  height: auto;
+  margin-right: 9vw;
+  margin-top: 15vh;
+  border-radius: 50%;
+  border: 3px solid black;
+}
+
+.name {
+  font-size: 60px;
+  font-weight: bold;
+  color: rgb(51, 49, 49);
+  text-align: center;
+  margin: 0;
+  margin-top: 5vh;
+  padding: 5px;
+  font-family: "Montserrat";
+}
+
+.hello {
+  font-size: 24px;
+  font-weight: bold;
+  color: gray;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-family: "Montserrat";
+}
+
+.bio {
+  font-size: 18px;
+  font-weight: normal;
+  color: black;
+  text-align: left;
+  margin: 0;
+  margin-top: 5vh;
+  padding: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.rounded-button {
+  background-color: maroon;
+  border: none;
+  color: white;
+  padding: 15px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 5vh;
+  cursor: pointer;
+  border-radius: 12px;
+  transition: background-color 0.3s;
+}
+
+.rounded-button:hover {
+  background-color: #45a049;
+}
+
+.rounded-button svg {
+  margin-left: 8px;
+  transform: translateY(2px);
+}
+
+.bottom-picture {
+  position: fixed;
+  bottom: 0;
+  margin-left: 12vw;
+  width: 100%;
+  color: white;
+  display: flex;
+  height: 20vh;
+}

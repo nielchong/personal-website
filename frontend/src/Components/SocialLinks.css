@@ -1,0 +1,18 @@
+.social-links-container {
+    position: fixed;
+    bottom: 2vh;
+    right: 22vw;
+    display: flex;
+    gap: 15px;
+    z-index: 1;
+  }
+  
+  .social-links-container a {
+    color: black;
+    font-size: 24px;
+    transition: color 0.3s;
+  }
+  
+  .social-links-container a:hover {
+    color: #45a049;
+  }

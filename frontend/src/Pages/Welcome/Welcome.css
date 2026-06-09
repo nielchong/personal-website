@@ -1,0 +1,28 @@
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+  }
+
+  .restricted-link {
+    background-color: maroon;
+    border: none;
+    color: white;
+    padding: 15px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5vh;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s;
+  }
+  
+  .restricted-link:hover {
+    background-color: #45a049;
+  }
