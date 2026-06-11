@@ -1,12 +1,12 @@
 # Personal Website
 Exercise in building a personal website.
 
-Java for back-end. Using Spring Boot to build the application, Spring Data JPA for connection to the database to retrieve username and passwords, and Spring Security for authentication.
+Java for back-end. Using Spring Boot to build the login and logout functionality of the website, Spring Data JPA for connection to the database to retrieve username and passwords, and Spring Security for authentication.
 
 React.js, HTML, CSS for front-end.
 
-Please start the React app by navigating to the directory ../login/frontend and running npm start.
+Start the React app by navigating to the directory ../personal-website/frontend and running npm start in the console.
 
-Please find LoginApplication.java in the backend folder and run it to start Spring Boot.
+Find LoginApplication.java in the backend folder and run it to start Spring Boot.
 
-The database used is MySQL.
+The database used to store usernames and passwords is MySQL.
